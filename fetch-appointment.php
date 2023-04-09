@@ -14,7 +14,7 @@ if (isset($_SESSION["user_id"])) {
     $user = $result->fetch_assoc();
 }
 $sql ="SELECT * FROM appointment
-                WHERE name = Abhijeet Bose";
+                WHERE name = Anand Kumar";
                
     
  $result = $mysqli->query($sql);
